@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<div>Hello World</div>, document.getElementById('root'));
+import Dice from './components/dice/Dice'
+import './index.css'
+
+ReactDOM.render(<Dice />, document.getElementById('root'));
 
